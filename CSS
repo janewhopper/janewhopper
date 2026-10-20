@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box; 
+}
+
+#container {
+  width: 564px;
+  border: 2px solid #EDAF87;
+  font-family: sans-serif;
+  overflow: auto;
+  margin: auto;
+}
+
+h1 {
+  color: #D87C3E;
+  background-color: #EDAF87;
+  font-size: .95rem;
+  padding: 8px;
+  margin: 0;
+}
+
+h3 {
+  margin: 8px 15px 15px 9px;
+  padding: 0;
+  font-size: 0.86rem;
+  letter-spacing: -.8px;
+}
+
+.num {
+  font-weight: 400;
+  color: red;
+}
+
+.friend {
+  width: 140px; 
+  float: left;
+  margin-bottom: 20px;
+}
+
+.friend h4 {
+  color: #0056AB;
+  text-align: center;
+  font-size: .85em;
+  margin: 0 0 6px;
+}
+
+.profile-picture {
+  max-width: 100px;
+  display: block;
+  margin: auto;
+  border: 2px solid #0056AB;
+}
+
+.online-icon {
+  margin: 5px auto;
+  display: block;
+}
+
+.view-all {
+  float: right;
+  color: red;
+  font-weight: bold;
+  letter-spacing: -.9px;
+  font-size: .86rem;
+  margin: 0 8px 5px 0;
+}
